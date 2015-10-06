@@ -1,0 +1,16 @@
+{
+  "name": "EVENT-Finder",
+  "description": "Finds Advertisement related JavaScript",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Ad-Finder"
+  },
+  "manifest_version": 2
+}
